@@ -1,0 +1,7 @@
+{
+  "model": "google/gemma-4-26B-A4B-it",
+  "n": 24,
+  "native_parse_response_extracts_toolcall": false,
+  "fire_rate_parserB_native": 0.0,
+  "fire_rate_parserA_regex": 1.0
+}

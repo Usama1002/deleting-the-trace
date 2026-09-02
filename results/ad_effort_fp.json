@@ -1,0 +1,62 @@
+{
+  "high": {
+    "n": 12,
+    "analysis_tokens_mean": 189.1,
+    "empty_or_short_rate(<=3tok)": 0.0,
+    "empty_rate": 0.0,
+    "per_task": [
+      73,
+      91,
+      253,
+      170,
+      79,
+      253,
+      253,
+      253,
+      85,
+      253,
+      253,
+      253
+    ]
+  },
+  "medium": {
+    "n": 12,
+    "analysis_tokens_mean": 33.2,
+    "empty_or_short_rate(<=3tok)": 0.0,
+    "empty_rate": 0.0,
+    "per_task": [
+      17,
+      36,
+      75,
+      41,
+      17,
+      21,
+      36,
+      41,
+      17,
+      36,
+      43,
+      18
+    ]
+  },
+  "low": {
+    "n": 12,
+    "analysis_tokens_mean": 8.8,
+    "empty_or_short_rate(<=3tok)": 0.0,
+    "empty_rate": 0.0,
+    "per_task": [
+      6,
+      6,
+      11,
+      8,
+      6,
+      6,
+      11,
+      8,
+      6,
+      7,
+      22,
+      8
+    ]
+  }
+}

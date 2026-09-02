@@ -1,0 +1,7 @@
+{
+  "gpt_oss_parsers_on_truncated_toolcall": {
+    "sdk_regex (aicomp-sdk)": "fires (pattern ends |$)",
+    "official openai-harmony 0.0.8 (reference, used by vLLM /responses)": "fires (parses truncated == complete; 26 vs 27 tokens both yield the commentary tool call)"
+  },
+  "note": "Both the SDK regex and the official reference parser recover a gpt-oss tool call whose closing <|call|> is missing, so truncation tolerance is not an SDK artifact. The gemma side is strict/fragile across stacks (SDK strict regex; transformers-native processor rejects the dialect, E3c; documented vLLM/llama.cpp/ollama gemma tool-call bugs)."
+}

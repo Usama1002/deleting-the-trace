@@ -1,0 +1,10 @@
+{
+  "lenient(current, |$)": {
+    "complete_call_fires": true,
+    "truncated_call_fires": true
+  },
+  "hardened(strict, no |$)": {
+    "complete_call_fires": true,
+    "truncated_call_fires": false
+  }
+}

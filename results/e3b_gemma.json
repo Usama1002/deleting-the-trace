@@ -1,0 +1,202 @@
+{
+  "model": "gemma",
+  "n": 24,
+  "fire_rate": 0.0,
+  "failure_breakdown": {
+    "single_match_but_not_fired": 24
+  },
+  "rows": [
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    },
+    {
+      "fired": false,
+      "class": "single_match_but_not_fired(blocked/args)",
+      "n_regex_calls": 1,
+      "n_hops": 1,
+      "raw_len": 111,
+      "preds": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "512": {
+    "fire_rate": 1.0,
+    "truncated_call_rate": 0.0,
+    "gen_tokens_mean": 32
+  },
+  "64": {
+    "fire_rate": 1.0,
+    "truncated_call_rate": 0.0,
+    "gen_tokens_mean": 32
+  },
+  "48": {
+    "fire_rate": 1.0,
+    "truncated_call_rate": 0.0,
+    "gen_tokens_mean": 32
+  },
+  "40": {
+    "fire_rate": 1.0,
+    "truncated_call_rate": 0.0,
+    "gen_tokens_mean": 32
+  },
+  "32": {
+    "fire_rate": 1.0,
+    "truncated_call_rate": 0.0,
+    "gen_tokens_mean": 32
+  },
+  "24": {
+    "fire_rate": 0.0,
+    "truncated_call_rate": 1.0,
+    "gen_tokens_mean": 24
+  },
+  "16": {
+    "fire_rate": 0.0,
+    "truncated_call_rate": 1.0,
+    "gen_tokens_mean": 16
+  }
+}

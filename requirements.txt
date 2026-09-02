@@ -1,0 +1,12 @@
+# H200 full-precision experiment environment (E1-E5 + W1-W3)
+# Python 3.12, NVIDIA H200, driven from .venv-h200 (--system-site-packages for the NGC torch)
+aicomp-sdk==3.1.2
+transformers==5.16.1
+torch==2.10.0a0+b558c986e8.nv25.11
+gymnasium==0.29.1
+openai==3.7.0
+openai-harmony==0.0.8
+tokenizers==0.23.1
+huggingface-hub==1.29.0
+safetensors==0.8.0
+accelerate==1.12.0

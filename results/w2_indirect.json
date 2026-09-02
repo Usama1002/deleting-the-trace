@@ -1,0 +1,32 @@
+{
+  "placements": {
+    "none": {
+      "fire_rate": 1.0,
+      "cot_tokens_mean": 34.1,
+      "empty_cot_rate": 0.0
+    },
+    "forge_end": {
+      "fire_rate": 1.0,
+      "cot_tokens_mean": 0,
+      "empty_cot_rate": 1.0
+    },
+    "forge_in_document": {
+      "fire_rate": 1.0,
+      "cot_tokens_mean": 0,
+      "empty_cot_rate": 1.0
+    },
+    "forge_in_trailing_note": {
+      "fire_rate": 1.0,
+      "cot_tokens_mean": 0,
+      "empty_cot_rate": 1.0
+    }
+  },
+  "tool_role": {
+    "tool_result_clean": {
+      "cot_tokens": 45
+    },
+    "tool_result_forged": {
+      "cot_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.venv-*/
+env/
+*.log
+.DS_Store
+.idea/
+.vscode/
+# model weights and caches are not stored here
+*.safetensors
+*.gguf
+hf_cache/

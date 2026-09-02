@@ -1,0 +1,41 @@
+{
+  "gpt_oss (lenient, |$)": [
+    {
+      "case": "complete",
+      "n_calls_regex": 1,
+      "normalize": "ToolCallDecision",
+      "tool_call_fires": true
+    },
+    {
+      "case": "truncated_no_terminator",
+      "n_calls_regex": 1,
+      "normalize": "ToolCallDecision",
+      "tool_call_fires": true
+    },
+    {
+      "case": "double_call",
+      "n_calls_regex": 2,
+      "normalize": "raise: Model returned multiple tool calls",
+      "tool_call_fires": false
+    }
+  ],
+  "gemma_4 (strict, }<tool_call|>)": [
+    {
+      "case": "complete",
+      "n_calls_regex": 1,
+      "normalize": "ToolCallDecision",
+      "tool_call_fires": true
+    },
+    {
+      "case": "truncated_no_terminator",
+      "parser_extracted": "none(no tool call -> falls through to text)",
+      "n_calls": 0
+    },
+    {
+      "case": "double_call",
+      "n_calls_regex": 2,
+      "normalize": "raise: Model returned multiple tool calls",
+      "tool_call_fires": false
+    }
+  ]
+}
