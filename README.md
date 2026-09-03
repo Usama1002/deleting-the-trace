@@ -2,7 +2,7 @@
 
 Code and logged measurements for a study of two input-level attacks on tool-using language model agents. The first attack appends a short string of a model's own channel-control tokens to untrusted input; the tokenizer reads it as an already-closed reasoning channel, so the model emits no chain-of-thought and proceeds directly to the tool call. This deletes the reasoning trace a monitor depends on and, on requests the model would otherwise refuse, converts refusals into completed actions. The second result is that whether an identical tool-call generation actually fires is decided by the harness parser rather than the model, so agent robustness is a joint property of the model and its decoding and parsing harness.
 
-Every experiment runs at full precision (bfloat16) with greedy decoding through the released tool sandbox. No competition leaderboard or grader scores are used as evidence; the logged JSON under `results/` is produced entirely by the scripts here.
+Every experiment runs at full precision (bfloat16) with greedy decoding through the released tool sandbox, and the logged JSON under `results/` is produced entirely by the scripts here.
 
 Paper: "Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents" (under review at TMLR).
 
