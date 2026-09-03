@@ -9,7 +9,7 @@ e2=json.load(open("results/e2b_monitor_gemma.json"))
 NAVY="#1B2A4A"; TEAL="#2A9D8F"; CORAL="#E76F51"; GRAY="#9AA5B1"
 plt.rcParams.update({"font.size":11,"font.family":"DejaVu Sans","axes.sprsine.top":False} if False else {"font.size":11})
 
-fig,(ax1,ax2)=plt.subplots(1,2,figsize=(9.2,3.4))
+fig,(ax1,ax2)=plt.subplots(1,2,figsize=(7.4,2.9))
 
 # Panel (a): reasoning-channel tokens, plain vs forged (unsafe), plus that the action still fires.
 cot_plain=e1["no_forge"]["unsafe"]["cot_tokens_mean"]
