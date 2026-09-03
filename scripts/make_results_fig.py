@@ -7,9 +7,9 @@ e1=json.load(open("results/e1_cot_suppression.json"))["conditions"]
 e2=json.load(open("results/e2b_monitor_gemma.json"))
 
 NAVY="#1B2A4A"; TEAL="#2A9D8F"; CORAL="#E76F51"; GRAY="#9AA5B1"
-plt.rcParams.update({"font.size":11,"font.family":"DejaVu Sans","axes.sprsine.top":False} if False else {"font.size":11})
+plt.rcParams.update({"font.size":11})
 
-fig,(ax1,ax2)=plt.subplots(1,2,figsize=(7.4,2.9))
+fig,(ax1,ax2)=plt.subplots(1,2,figsize=(7.8,3.0))
 
 # Panel (a): reasoning-channel tokens, plain vs forged (unsafe), plus that the action still fires.
 cot_plain=e1["no_forge"]["unsafe"]["cot_tokens_mean"]
@@ -21,7 +21,7 @@ for b,v in zip(bars,[cot_plain,cot_forge]):
     ax1.text(b.get_x()+b.get_width()/2,v+1.2,f"{v:.1f}",ha="center",va="bottom",fontweight="bold")
 ax1.text(1.0,26,"unsafe action\nfires 100%\nin both\nconditions",ha="center",va="center",fontsize=10,
          style="italic",color=NAVY)
-ax1.set_title("(a) control-token injection deletes the CoT",fontsize=11,color=NAVY)
+ax1.set_title("(a) injection deletes the CoT",fontsize=11,color=NAVY)
 for s in ("top","right"): ax1.spines[s].set_visible(False)
 
 # Panel (b): monitor detection on malicious requests, plain vs forged.
@@ -39,10 +39,10 @@ for bars in (b1,b2):
     for b in bars:
         ax2.text(b.get_x()+b.get_width()/2,b.get_height()+0.02,f"{b.get_height():.2f}",ha="center",va="bottom",fontsize=9)
 ax2.legend(frameon=False,loc="upper right",ncol=1,fontsize=9.5)
-ax2.set_title("(b) forge blinds CoT monitors, not the action monitor",fontsize=11,color=NAVY)
+ax2.set_title("(b) forge blinds CoT monitors",fontsize=11,color=NAVY)
 for s in ("top","right"): ax2.spines[s].set_visible(False)
 
-fig.tight_layout()
+fig.tight_layout(w_pad=3.0)
 fig.savefig("paper/figures/results.pdf",bbox_inches="tight")
 fig.savefig("paper/figures/results.png",dpi=150,bbox_inches="tight")
 print("saved paper/figures/results.pdf")
