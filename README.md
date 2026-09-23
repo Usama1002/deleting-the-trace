@@ -4,7 +4,7 @@ Code and logged measurements for a study of two input-level attacks on tool-usin
 
 Every experiment runs at full precision (bfloat16) with greedy decoding through the released tool sandbox, and the logged JSON under `results/` is produced entirely by the scripts here.
 
-Paper: "Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents" (under review at TMLR).
+Paper: "Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents".
 
 ## Findings
 
